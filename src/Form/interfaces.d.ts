@@ -1,7 +1,7 @@
 export interface FormFields {
   name: string;
   address: string;
-  phone: number;
+  phone: string;
   email: string;
   dateOfBirth: Date;
 }

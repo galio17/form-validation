@@ -17,11 +17,11 @@ const Input = ({ name, ...props }: InputProps) => {
   return (
     <TextField
       {...props}
-      {...register(name)}
       {...error}
       InputLabelProps={{
         shrink: true,
       }}
+      {...register(name)}
     />
   );
 };

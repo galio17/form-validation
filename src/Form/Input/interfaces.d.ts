@@ -4,5 +4,5 @@ import { FormFields } from "../interfaces";
 
 export type InputProps = TextFieldProps & {
   name: keyof FormFields;
-  registerOptions?: RegisterOptions;
+  options?: RegisterOptions;
 };
