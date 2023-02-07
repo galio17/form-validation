@@ -8,6 +8,7 @@ const Input = ({ name, ...props }: InputProps) => {
     register,
     formState: { errors },
   } = useFormContext<FormFields>();
+
   const helperText = errors[name]?.message;
   const error = {
     helperText,
